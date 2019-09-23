@@ -58,6 +58,7 @@ def main():
     plt.xlabel("count value")
     plt.ylabel("probability")
     plt.xscale("log")
+    plt.xlim([10,100])
 
 if __name__ == '__main__':
     main()

@@ -54,6 +54,7 @@ def main():
     sigma=np.sqrt(mean)
     y = gaussfunc(xvals, mean, sigma)
     plt.plot(xvals, y, 'b')
+    #plt.xlim([,])
     
 if __name__ == '__main__':
     main()

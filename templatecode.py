@@ -48,6 +48,7 @@ for i in range(0, len(Nct)):
     probval = prob[sel]
     label = "count for %s hr" % (nhr[i])
     plt.text(n, probval, label)
+    #plt.xlim([,])
     
 # plot Gaussian distribution with matching mean and sigma
 sigma=np.sqrt(mean)
