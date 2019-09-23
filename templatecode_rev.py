@@ -24,7 +24,8 @@ def gaussfunc(xvals, mean, sigma):
 
 def poissonfunc(xvals, mean):   # move function out of loop to top of code
     prob=stats.poisson.pmf(xvals, mean) # use array math instead of loop
-    return prob
+    return prob # note that defining this function proved entirely unnecessary,
+                # could just use "stats.poisson.pmf" instead of poissonfunc
 
 def main():
     # rename single-letter variables U, N, n -- note that "n" is a command for pdb!
